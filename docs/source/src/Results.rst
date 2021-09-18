@@ -5,10 +5,11 @@ Results
 ----
 Data
 ----
-Sample Table
+**tablo deneme** 
 
-.. csv-table:: Entropy and Total Variants 
-   :file: ../data/entropy_table.csv
+.. csv-table:: Lorem Ipsum
+    :file: ../data/entropy_table.csv
+    :header-rows: 1
 
 
 ---------------------------
