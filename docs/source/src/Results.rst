@@ -5,6 +5,11 @@ Results
 ----
 Data
 ----
+.. csv-table:: Entropy and Total Variants 
+   :file: ../data/entropy_table.csv
+   :widths: 30, 70
+   :header-rows: 1
+
 
 ---------------------------
 Proteome Sequence Diversity
