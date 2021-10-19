@@ -8,6 +8,13 @@ General Overview
 
 Bu projede kullanılan biyoinformatik analizler şekil 1'de gösterilmiştir. Bu analizler içerisinde, veri toplama ve sınıflandırma ilk aşamada yer almaktadır. Bunu takip eden veri işleme sürecinde ise, verileri analiz için uygun hale getirme ve deduplikasyon işleminin gerçekleştirilmesi, verileri birleştirme, birleştirilen verilerin dizi hizalamala analizlerinin yapılması ve sonuçlarının kontrol edilmesi, hizalanan dizilerin proteom düzeyinde dizi çeşitliliğinin belirlenmesi, dizi çeşitliliği motiflerinin karakterizasyonu ve nicel olarak ölçümü, korunmuşluk içeren ve çeşitlilik gösteren dizi bölgelerinin dağılımının saptanması, potansiyel aşı adayı epitopların belirlenmesi bulunmaktadır.
 
+ .. figure:: ../_static/methodology3.gv.png
+      :alt: Araştırma yöntemi şeması
+      :class: with-shadow
+      :width: 100px
+
+      Şekil 1. Araştırma yöntemine genel bakış
+
 -----------------------------------
 Data Collections and Classification
 -----------------------------------
