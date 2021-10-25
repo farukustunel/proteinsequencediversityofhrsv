@@ -36,15 +36,25 @@ NCBI Virus ve VIPR veritabanlarından indirilen veriler tek dosya haline getiril
 Multiple Sequence Alignment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Çoklu dizi hizalaması herhangi bir biyoinformatik analiz için hayati öneme sahip bir dizi karşılaştırma analizidir. Hâlihazırda birçok dizi hizalaması analizi yapan programlar bulunmakla birlikte, bu programlar hem açık kaynak kodlu olarak hem de ticari versiyon olarak kullanıcılara sunulmaktadır. Analize hazır protein veri seti, açık kaynak kodlu MUSCLE[ref] programı kullanılarak analiz edilmiştir. 
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Multiple Sequence Alignment Check
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Çoklu dizi hizalaması sonuçları, her bir protein veri seti için AliView (Alignment Viewer) programı kullanılarak kontrol edilmiştir. Analiz edilen 11 protein veri seti arasından sadece G proteininde 240'ıncı pozisyondan sonra yer yer boşluklar gözlemlenmiştir. Diğer proteinler için herhangi bir sorunla karşılaşılmamıştır. 
+
 -----------------------------------
 Mapping Proteome Sequence Diversity
 -----------------------------------
+
+Shannon entropisi [ref], İnsan solunum sinsityal virüsü (hRSV) proteomunun dizi çeşitliliğini belirlemek için kullanılmıştır. Sliding k-mer window yaklaşımı ise hücresel bağışıklık tepkisi oluşturabilecek peptidlerin belirlenmesi için çoklu dizi hizalaması sonuçlarına uygulanmıştır. Bu yaklaşımda ``k`` değeri olarak 9 seçilmiştir. Çünkü, insan lökosit antijenleri (HLAs) ve T hücresi reseptör (TCR) bağlanma bölgeleri çoğunluklu bu uzunluktaki peptidleri (nonamer) tanımaktadır [ref]. Nonamer çeşitliliği, her üst üste gelen pozisyonlar için (1-9,2-10,3-11 vb.) entropi değeri belirlenerek hesaplanmıştır. Entropi değeri olan H(x), dizi hizalaması sonuçlarındaki ilgili pozisyonlar için şu formül kullanılarak hesaplanmıştır.
+
+.. math::
+
+   \\frac{ \sum_{t=0}^{N}f(t,k) }{N}
+
 
 -------------------------------------------------------
 Quantification and Characterization of Diversity Motifs
