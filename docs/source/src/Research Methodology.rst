@@ -53,7 +53,9 @@ Shannon entropisi [ref], İnsan solunum sinsityal virüsü (hRSV) proteomunun di
 
 .. math::
 
-   \\frac{ \sum_{t=0}^{N}f(t,k) }{N}
+   H(x) = -\sum_{i=1}^{n(x)}p(i,x)}{\log_{2}p(i,x)}
+
+Source https://www.physicsforums.com/threads/how-to-write-log-in-latex.817954/}
 
 
 -------------------------------------------------------
