@@ -55,8 +55,6 @@ Shannon entropisi [ref], İnsan solunum sinsityal virüsü (hRSV) proteomunun di
 
    H(x) = -\sum_{i=1}^{n(x)} P_i\,log_2\,P_i
 
-Source https://www.physicsforums.com/threads/how-to-write-log-in-latex.817954/}
-
 
 -------------------------------------------------------
 Quantification and Characterization of Diversity Motifs
