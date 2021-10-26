@@ -53,7 +53,7 @@ Shannon entropisi [ref], İnsan solunum sinsityal virüsü (hRSV) proteomunun di
 
 .. math::
 
-   H(x) = -\sum_{i=1}^{n(x)} P_i\,log_2\,P_i
+   H(x) = -\sum\limits_{i=1}^{n(x)} p(i,x)\,log_2\,p(i,x)
 
 
 -------------------------------------------------------
