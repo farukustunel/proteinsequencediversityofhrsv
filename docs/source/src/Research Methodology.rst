@@ -55,6 +55,8 @@ Shannon entropisi [ref], İnsan solunum sinsityal virüsü (hRSV) proteomunun di
 
    H(x) = -\sum\limits_{i=1}^{n(x)} p(i,x)\,log_2\,p(i,x)
 
+Bu formülde p(i,x), i nonamer dizisinin x pozisyonunda bulunma olasılığını ifade eder. Entropi değeri H(x), n(x) değeri olan toplam nonamer dizisi arttıkça artış gösterir. Entropi değeri, x pozisyonunda bulunan dizi çeşitliliğini belirtir ve aynı zamanda x pozisyonunda bulunan nonamerlerin birbirleri ile göreceli olasılığına da bağlıdır. İlgili nonamer dizisinin x pozisyonunda dominant olması o pozisyon için entropi değerini azaltıcı etki gösterir. Bu durum, x pozisyonunun nonamer dizileri açısından korunmuşluk gösterdiğini kanıtlar. Entropi değerini etkileyen bir başka faktör ise dizi hizalamasında bulunan proteinlerin sayısıdır. Paninski kuralına göre dizi hizalamasındaki proteinlerin sayısı N olarak ifade edilirse hizalamada oluşabilecek istatistiksel yanlılık N ile ters orantılı olarak değişim göstermektedir [ref]. Her x pozisyonu için entropi değerinde N sayısını ele alarak istatistiksel olarak düzenleme yapılması analiz sonuçlarının doğruluğu açısından büyük önem arz etmektedir. Anlatılan tüm bu aşamaların analizi, DiMA (Diversity Motif Analyzer) [ref] programı kullanılarak gerçekleştirilmiştir.
+
 
 -------------------------------------------------------
 Quantification and Characterization of Diversity Motifs
