@@ -20,7 +20,7 @@ Bu projede kullanılan biyoinformatik analizler Şekil 1'de gösterilmiştir. Bu
 Data Collections and Classification
 -----------------------------------
 
-İnsan solunum sinsityal virüsü (hRSV) A ve B alt tiplerinin tüm protein dizileri NCBI Virus [ref] (https://www.ncbi.nlm.nih.gov/labs/virus/vssi) ve VIPR [ref] (https://www.viprbrc.org) veritabanlarından 31.03.2021 tarihinde indirilmiştir. İndirilen protein dizileri virüsün 11 proteini (F,G,L,M,M2-1,M2-2,N,NS1,NS2,P,SH) dikkate alınarak sınıflandırılmıştır. Bu araştırmanın virüsün insanda neden olduğu hastalıklara karşı profilaktif aşı çalışmalarına katkı sağlaması hedeflendiği için konak olarak insan seçilmiştir. Her iki veritabanında da protein dizilerinin farklı uzunluklardaki kayıtları bulunmaktadır. Bu durum, dizi hizalamalarında hatalara yol açabileceğinden dolayı her iki alt tipin proteinleri için NCBI veritabanından referans protein dizileri seçilmiştir. Dizi uzunlukları referans değerinde olan ve bu değerden en fazla %10 uzaklıkta olan diziler analiz için seçilmiştir. 
+İnsan solunum sinsityal virüsü (hRSV) A ve B alt tiplerinin tüm protein dizileri NCBI Virus (https://www.ncbi.nlm.nih.gov/labs/virus/vssi) [ref] ve VIPR (https://www.viprbrc.org) [ref] veritabanlarından 31.03.2021 tarihinde indirilmiştir. İndirilen protein dizileri virüsün 11 proteini (F,G,L,M,M2-1,M2-2,N,NS1,NS2,P,SH) dikkate alınarak sınıflandırılmıştır. Bu araştırmanın virüsün insanda neden olduğu hastalıklara karşı profilaktif aşı çalışmalarına katkı sağlaması hedeflendiği için konak olarak insan seçilmiştir. Her iki veritabanında da protein dizilerinin farklı uzunluklardaki kayıtları bulunmaktadır. Bu durum, dizi hizalamalarında hatalara yol açabileceğinden dolayı her iki alt tipin proteinleri için NCBI veritabanından referans protein dizileri seçilmiştir. Dizi uzunlukları referans değerinde olan ve bu değerden en fazla %10 uzaklıkta olan diziler analiz için seçilmiştir. 
 
 ---------------
 Data Processing
@@ -30,7 +30,7 @@ Data Processing
 Data Merging, Cleansing and Deduplication
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-NCBI Virus ve VIPR veritabanlarından indirilen veriler tek dosya haline getirilerek birleştirilmiştir. Analizlerde sorun oluşturabilecek protein dizileri kontrol edilmiş ve veri setinden çıkartılmıştır. Her iki veritabınında da bulunan ortak diziler cd-hit[ref] programı kullanılarak tekilleştirilmiştir. Bu işlemde, dizi benzerliği eşik değerini ifade eden ``-c`` parametresi 1 olarak seçilmiştir. Benzerlik değerini hesaplamada kullanılacak olan ve dizi uzunluğunu belirleyen ``-n`` değeri ise varsayılan değer olan 5 olarak seçilmiştir. Bu değer, aynı zamanda programın 0.7-1 eşik değeri aralığı için önerdiği değerdir. Analiz sonuçlarının güvenilir olması ve verilerin sınıflandırılmasının doğruluğundan emin olmak için hata içeren protein dizilerinin üst verileri, NCBI ve Uniprot[ref] veritabanları kullanılarak kontrol edilmiş ve hatalar düzeltilmiştir. Yapılan bu işlemler, veri setinde oluşabilecek yanlılığın da önüne geçilmesini sağlayarak verileri analize hazır hale getirmiştir.
+NCBI Virus ve VIPR veritabanlarından indirilen veriler tek dosya haline getirilerek birleştirilmiştir. Analizlerde sorun oluşturabilecek protein dizileri kontrol edilmiş ve veri setinden çıkartılmıştır. Her iki veritabınında da bulunan ortak diziler cd-hit[ref] programı kullanılarak tekilleştirilmiştir. Bu işlemde, dizi benzerliği eşik değerini ifade eden ``-c`` parametresi 1 olarak seçilmiştir. Benzerlik değerini hesaplamada kullanılacak olan ve dizi uzunluğunu belirleyen ``-n`` değeri ise varsayılan değer olan 5 olarak seçilmiştir. Bu değer, aynı zamanda programın 0.7-1 eşik değeri aralığı için önerdiği değerdir. Analiz sonuçlarının güvenilir olması ve verilerin sınıflandırılmasının doğruluğundan emin olmak için hata içeren protein dizilerinin üst verileri, NCBI [ref] ve Uniprot[ref] veritabanları kullanılarak kontrol edilmiş ve hatalar düzeltilmiştir. Yapılan bu işlemler, veri setinde oluşabilecek yanlılığın da önüne geçilmesini sağlayarak verileri analize hazır hale getirmiştir.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Multiple Sequence Alignment
@@ -62,10 +62,33 @@ Bu formülde p(i,x), i nonamer dizisinin x pozisyonunda bulunma olasılığını
 Quantification and Characterization of Diversity Motifs
 -------------------------------------------------------
 
-------------------------------------------------
-Distribution of conserved and variable sequences
-------------------------------------------------
+Entropi değeri protein dizi çeşitliliği hakkında genel olarak bilgi sahibi olmamızı sağlar. Bu çeşitliliğin nicel ölçümü ve karakterizasyonu için dizi çeşitliliği motiflerini incelemek gereklidir. Motiflerin karakterizasyonu çoklu dizi hizalamasındaki her bir nonamer pozisyonu için o pozisyonda bulunan farklı nonamer dizilerinin nicel ölçümü yapılarak gerçekleştirilmiştir [ref]. En çok tekrar eden nonamer dizisi "index" olarak adlandırılmıştır. Bunun dışında kalan nonamerler ise "varyantlar" olarak isimlendirilmiştir ve index nonamer dizisinden en az 1 amino asiti farklıdır. Varyantların içinde en sık bulununan nonamer dizisi "major", major motifinden daha az sıklıkta olan ve birden fazla bulunan nonamer dizisi ise "minor" olarak tanımlanmıştır. Tek olarak bulunan çeşitlilik motifine ise "özgün" denilmiştir. Bu motiflere ek olarak "nonatipler" tüm motiflerin (index,major,minor,özgün) nonamerleri toplamının dizi hizalamasındaki tüm dizilerin toplamına bölünmesi sonucu hesaplanmış ve proteom düzeyinde dizi dinamiklerini açığa çıkarmıştır.   
 
--------------------------------------------  
-Identification of Candidate Vaccine Targets
--------------------------------------------
+.. figure:: 
+      :alt: Dizi çeşitliliği motifleri
+      :class: with-shadow
+      :width: 400px
+      :height: 400px
+
+      Şekil 1. Dizi çeşitliliği motifleri
+
+------------------------------------------------------------------------------------------------
+Distribution of conserved and variable sequences and Identification of Candidate Vaccine Targets
+------------------------------------------------------------------------------------------------
+
+Korunmuşluk içeren ve çeşitlilik gösteren peptidleri incelemek için index motifi kendi arasında 5 kategoriye ayrılmıştır:
+
+1. Çok yüksek derecede çeşitliliğe sahip (index değeri %10'dan küçük)
+2. Yüksek derecede çeşitliliğe sahip (index değeri %20'den küçük, %10'dan büyük ve eşit)
+3. Karışık değişkenleri içeren (index değeri %90'dan küçük, %20'den büyük ve eşit)
+4. Yüksek derecede korunmuşluğa sahip (index değeri %100'den küçük, %90'dan büyük ve eşit)
+5. Tamamen korunmuş (index değeri %100'e eşit)
+
+Yüksek derecede korunmuşluğa sahip ve tamamen korunmuş olan diziler çok düşük entropi değerlerine sahip olmakla birlikte evrimsel açıdan da dirençlilik gösterirler. Bu yüzden aşı adayı olabilecek epitoplar bu kategorilere ait dizilerden seçilmiştir ve amino asit dizileri üst üste gelen nonamerler birbirleri ile birleştirilmiştir. Birleştirilen nonamerlerin immünojenitesi IEDB (Immune Epitope Database) [ref] veritabanı kullanılarak araştırılmıştır. Virüse ait deneysel olarak ispatlanan ve rapor edilen epitoplar da IEDB veritabanı kullanılarak 
+belirlenmiştir.
+
+------------------
+Epitope Prediction
+------------------
+
+
