@@ -10,9 +10,8 @@ Bu projede kullanılan biyoinformatik analizler Şekil 1'de gösterilmiştir. Bu
 
  .. figure:: ../figures/methodology3.gv.svg
       :alt: Araştırma yöntemi şeması
-      :class: with-shadow
-
-        Araştırma yöntemine genel bakış
+      
+      Araştırma yöntemine genel bakış
 
 -----------------------------------
 Data Collections and Classification
