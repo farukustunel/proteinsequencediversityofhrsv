@@ -6,16 +6,16 @@ Results
 Data
 ----
 
-.. list-table:: **hRSV sequences analysed.** Data were retrieved from NCBI Virus[1]_ and VIPR[2]_ databases.
+.. list-table:: **hRSV sequences analysed.** Data were retrieved from NCBI Virus :sup:[1]_ and VIPR :sup:[2]_ databases.
    :widths: 25 50 50 50 50 50
    :header-rows: 1
-
+ 
    * - Protein
      - Subtype A Length
      - Subtype B Length
      - Minumum Identity (%)
-     - Total Sequence Collected (Redundant, R)[3]_
-     - Non-redundant (NR)[4]_
+     - Total Sequence Collected (Redundant, R) :sup:[3]_
+     - Non-redundant (NR) :sup:[4]_
    * - F
      - 574
      - 574
