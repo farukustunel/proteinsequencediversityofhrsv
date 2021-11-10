@@ -83,7 +83,7 @@ hRSV proteomunda entropi ve total varyantlar arasında ilişki incelendiğinde i
 Dynamics of Diversity Motif
 ---------------------------
 
-
+hRSV proteomunun motif çeşitliliği dinamiklerini daha iyi anlamak için 4449 üst üste gelen nonamer dizisinin nicel analizi yapılmıştır (Appendix 1). M2-2 proteininin örnek olarak seçilmiş nonamerleri için motif çeşitliliği dinamikleri Tablo 1'de incelenebilir. Tablo 1'deki veri setinin M2-2 proteini için başlangıç pozisyonu çoklu dizi hizalaması dikkate alındığında 1-13 arasında olan toplam 13 farklı nonamerden oluştuğu gözlemlenebilir. 13 farklı nonamerin temsil ettiği toplam nonamer sayısı ise 2319'dur. Bu nonamerler arasında korunmuşluk derecesi tamamen korunmuş olan bir tek nonamer bulunmuştur. 7-15 pozisyonları arasında olan nonamerin entropi değeri 0 ve index değeri %100 olarak görülmektedir. Diğer nonamerler ise çok yüksek korunmuşluğa sahip ve karışık değişkenleri içeren korunmuşluk seviyelerine sahiptir. Çok yüksek korunmuşluğa sahip olan nonamerler arasında en yüksek index değeri %99.6'dır ve nonamer pozisyonları 8-16 ve 9-17'dir. Entropi değerleri de sırasıyla 0.04 ve 0.03'tür. Karışık değişkenleri içeren korunmuşluk seviyesine sahip olan nonamerler arasında en yüksek index değeri ise %81.4'tür. Bu nonamerlerin pozisyonları 1-9 ve 2-10'dur. Entropi değerleri sırasıyla 1.08 ve 1.07'dir. Her iki pozisyonun da toplam 105 nonamer dizisi içerdiği tespit edilmiştir. Total varyantların değeri bu pozisyonlar için %18.6, major varyantlar için %10.85, minor varyantlar ve özgün varyantlar için ise %3.88'dir. Nonatip olarak adlandırılan ve ilgili bölgedeki farklı nonamer sayısının o bölgedeki tüm nonamer sayısına bölümü sonucu hesaplanan değer ise %6.2'dir. Tablo genelinde gösterilen nonamer pozisyonlarının hiçbirinde düşük destek (ilgili pozisyon için nonamer sayısının 30'dan az olması durumu) görülmemiştir.  
 
 .. figure:: ../figures/m2_2_sample_table-cropped.svg
       :alt: hRSV M2-2 proteininin nicel çeşitlilik analizine ait örnek tablo
@@ -91,6 +91,7 @@ Dynamics of Diversity Motif
       hRSV M2-2 proteininin nicel çeşitlilik analizine ait örnek tablo
 
 
+Her bir çeşitlilik motifinin total varyantlar ile olan ilişkisi Şekil 1'de proteom düzeyinde incelenmiştir. Total varyantların artış gösterdiği durumlarda tüm motif çeşitlerinin özgün bir desene sahip olduğu görülmektedir (Şekil 1 A.). Total varyantların artış gösterdiği durumda major varyantların değerinin piramit deseni oluşturduğu gözlemlenmiştir. Major varyantların değerleri ise (sayı-sayı) arasında değişim göstermektedir. Major varyantlar için görülen maksimum değer (%sayıdır) ve minumum değer (%sayıdır). Grafik içerisinde görülen ve index değerinin genelinden farklı konumlarda bulunan noktalar ise farklı proteinlerin aynı pozisyonu içinde görülen birden fazla index nonamerini temsil etmektedir.   
 
 
 .. figure:: ../figures/proteomemotif.png
