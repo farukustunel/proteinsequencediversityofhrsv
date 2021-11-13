@@ -91,7 +91,7 @@ hRSV proteomunun motif çeşitliliği dinamiklerini daha iyi anlamak için 4449 
       hRSV M2-2 proteininin nicel çeşitlilik analizine ait örnek tablo
 
 
-Her bir çeşitlilik motifinin total varyantlar ile olan ilişkisi Şekil 1'de proteom düzeyinde incelenmiştir. Total varyantların artış gösterdiği durumlarda tüm motif çeşitlerinin özgün bir desene sahip olduğu görülmektedir (Şekil 1 A.). Total varyantların artış gösterdiği durumda major varyantların değerinin piramit deseni oluşturduğu gözlemlenmiştir. Major varyantların değerleri ise (sayı-sayı) arasında değişim göstermektedir. Major varyantlar için görülen maksimum değer (%sayıdır) ve minumum değer (%sayıdır). Grafik içerisinde görülen ve index değerinin genelinden farklı konumlarda bulunan noktalar ise farklı proteinlerin aynı pozisyonu içinde görülen birden fazla index nonamerini temsil etmektedir.   
+Her bir çeşitlilik motifinin total varyantlar ile olan ilişkisi Şekil 1'de proteom düzeyinde incelenmiştir. Total varyantların artış gösterdiği durumlarda tüm motif çeşitlerinin özgün bir desene sahip olduğu görülmektedir (Şekil 1 A.). Total varyantların artış gösterdiği durumda major varyantların değerinin piramit deseni oluşturduğu gözlemlenmiştir. Major varyantların değerleri ise 0 ile %49.21 arasında değişim göstermektedir. Grafik içerisinde görülen ve index değerinin genelinden farklı konumlarda bulunan noktalar ise farklı proteinlerin aynı pozisyonu içinde görülen birden fazla index nonamerini temsil etmektedir. SH proteininde 35-43 ve 50-58 pozisyonları arasındaki nonamerler ile NS2 proteininde 39-47 ve 40-48 pozisyonları arasındaki nonamerler için birden fazla index bulunmuştur.  
 
 
 .. figure:: ../figures/proteomemotif.png
