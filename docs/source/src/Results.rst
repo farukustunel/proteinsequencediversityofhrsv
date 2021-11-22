@@ -91,7 +91,7 @@ hRSV proteomunun motif çeşitliliği dinamiklerini daha iyi anlamak için 4449 
       hRSV M2-2 proteininin nicel çeşitlilik analizine ait örnek tablo
 
 
-Her bir çeşitlilik motifinin total varyantlar ile olan ilişkisi Şekil 1'de proteom düzeyinde incelenmiştir. Total varyantların artış gösterdiği durumlarda tüm motif çeşitlerinin özgün bir desene sahip olduğu görülmektedir (Şekil 1 A.). Total varyantların artış gösterdiği durumda major varyantların değerinin piramit deseni oluşturduğu gözlemlenmiştir. Major varyantların değerleri ise 0 ile %49.21 arasında değişim göstermektedir. Grafik içerisinde görülen ve index değerinin genelinden farklı konumlarda bulunan noktalar ise farklı proteinlerin aynı pozisyonu içinde görülen birden fazla index nonamerini temsil etmektedir. SH proteininde 35-43 ve 50-58 pozisyonları arasındaki nonamerler ile NS2 proteininde 39-47 ve 40-48 pozisyonları arasındaki nonamerler için birden fazla index bulunmuştur.  
+Her bir çeşitlilik motifinin total varyantlar ile olan ilişkisi Şekil 1'de proteom düzeyinde incelenmiştir. Total varyantların artış gösterdiği durumlarda tüm motif çeşitlerinin özgün bir desene sahip olduğu görülmektedir (Şekil 1 A.). Total varyantların artış gösterdiği durumda major varyantların değerinin piramit deseni oluşturduğu gözlemlenmiştir. Major varyantların değerleri 0 ile %49.21 arasında değişim göstermektedir. Grafik içerisinde görülen ve index değerinin genelinden farklı konumlarda bulunan noktalar ise farklı proteinlerin aynı pozisyonu içinde görülen birden fazla index nonamerini temsil etmektedir. SH proteininde 35-43 ve 50-58 pozisyonları arasındaki nonamerler ile NS2 proteininde 39-47 ve 40-48 pozisyonları arasındaki nonamerler için birden fazla index bulunmuştur. Minor ve özgün varyantlar ise proteom boyunca hemen hemen her pozisyonda görülebilmektedir. Minor varyantların maksimum değeri yaklaşık olarak %58'dir ve bu değere karşılık gelen total varyantların değerinin ise %60'a yakın olduğu görülebilir. Özgün varyantların ise daha dengeli bir dağılım gösterdiği tespit edilmiştir ve maksimum değeri yaklaşık %21 olarak bulunmuştur. Nonatipler de özgün varyantlar gibi proteom düzeyinde dengeli bir dağılım göstermiştir ve görülen maksimum değer yaklaşık %31 olarak tespit edilmiştir. Ayrıca korunmuşluk içeren nonamer dizi değerlerindeki azalmanın %18'e kadar düştüğü ve buna karşılık total varyantların değerinin %80'e kadar çıktığı görülmektedir. Bu iki değer arasında teorik olarak beklenildiği gibi ters orantı gözlemlenmiştir. Tüm çeşitlilik motiflerinin frekans dağılımları keman grafiği kullanılarak analiz edilmiştir (Şekil 1 B.). İndex nonamerler, major varyantlar, minor varyantlar, özgün varyantlar ve nonatiplerin proteome boyunca görülen ortalama değerleri sırasıyla %77.3, %17.6, %3.7, %1.2 ve %2 olarak ölçülmüştür. İndex nonamerlerin değerleri %50-60 ve %90-%100 arasında yoğunluk göstermektedir. Major varyantların yoğunluğu ise yaklaşık olarak %20-%30 ve %50-%60 değerleri arasında fazlalık göstermektedir. Diğer çeşitlilik motifleri için yoğunluklar yaklaşık olarak %20-%25 arasında değişiklik göstermektedir.
 
 
 .. figure:: ../figures/proteomemotif.png
@@ -99,6 +99,8 @@ Her bir çeşitlilik motifinin total varyantlar ile olan ilişkisi Şekil 1'de p
       
       hRSV dizi çeşitliliği motiflerinin proteom düzeyinde dinamiklerini gösteren grafik
 
+
+hRSV dizi çeşitliliği motiflerinin protein düzeyindeki dinamikleri, proteom düzeyindeki dinamikleri ile benzerlik göstermektedir (Şekil 1).
 
 
 .. figure:: ../figures/motifvstotal4all.png
