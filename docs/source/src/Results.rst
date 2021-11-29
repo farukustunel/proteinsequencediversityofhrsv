@@ -119,7 +119,7 @@ hRSV dizi çeşitliliği motiflerinin protein düzeyindeki sıklık dağılımla
 Distribution of Conserved and Variable Sequences
 ------------------------------------------------
 
-hRSV proteomunda hemen hemen tüm nonamer dizi pozisyonları karışık değişkenleri içeren ve yüksek derecede korunmuşluğa sahip olarak sınıflandırılmıştır (Şekil 1). Protome düzeyinde inceleme yapıldığında karışık değişkenleri içeren nonamer dizileri yaklaşık %49 (2180 nonamer dizisi), yüksek derecede korunmuşluk içeren nonamer dizileri yaklaşık %47 (2092 nonamer dizisi), tamamen korunmuş nonamer dizileri ise yaklaşık %4 (177 nonamer dizisi) olarak bulunmuştur.
+hRSV proteomunda hemen hemen tüm nonamer dizi pozisyonları karışık değişkenleri içeren ve yüksek derecede korunmuşluğa sahip olarak sınıflandırılmıştır (Şekil 1). Protome düzeyinde inceleme yapıldığında karışık değişkenleri içeren nonamer dizileri yaklaşık %49 (2180 nonamer dizisi), yüksek derecede korunmuşluk içeren nonamer dizileri yaklaşık %47 (2092 nonamer dizisi), tamamen korunmuş nonamer dizileri ise yaklaşık %4 (177 nonamer dizisi) olarak bulunmuştur. Sadece L, N, M, M2-1 ve M2-2 proteinleri tamamen korunmuş (index değeri %100'e eşit) olan nonamer dizilerini içermektedir. Çok yüksek derecede çeşitliliğe sahip (index değeri %10'dan küçük) ve yüksek derecede çeşitliliğe sahip (index değeri %20'den küçük, %10'dan büyük ve eşit) nonamer dizilerine ise hiçbir proteinde rastlanmamıştır.
 
 .. figure:: ../figures/rating1.png
       :alt: Protein ve proteome düzeyinde hRSV nonamerlerinin korunmuşluk derecelerini gösteren grafik 
