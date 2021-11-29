@@ -100,7 +100,7 @@ Her bir çeşitlilik motifinin total varyantlar ile olan ilişkisi Şekil 1'de p
       hRSV dizi çeşitliliği motiflerinin proteom düzeyinde dinamiklerini gösteren grafik
 
 
-hRSV dizi çeşitliliği motiflerinin protein düzeyindeki dinamikleri, proteom düzeyindeki dinamikleri ile benzerlik göstermektedir (Şekil 1).
+hRSV dizi çeşitliliği motiflerinin protein düzeyindeki dinamikleri, proteom düzeyindeki dinamikleri ile benzerlik göstermektedir (Şekil 1). G ve M2-1 proteinleri hariç diğer proteinlerin tüm motifleri %20-%40 değer aralığında veri noktalarına sahip değildir. Total varyantlar ise tüm proteinlerde %80 değerinin altında bulunmaktadır.
 
 
 .. figure:: ../figures/motifvstotal4all.png
@@ -108,7 +108,7 @@ hRSV dizi çeşitliliği motiflerinin protein düzeyindeki dinamikleri, proteom 
       
       hRSV dizi çeşitliliği motiflerinin protein düzeyinde dinamiklerini gösteren grafik
 
-
+hRSV dizi çeşitliliği motiflerinin protein düzeyindeki sıklık dağılımları şekil 1'de keman grafikleri kullanılarak analiz edilmiştir. İndex motifleri incelendiğinde hiçbir protein için %20'inin altında değere rastlanmamıştır. G, M2-2 ve SH proteinleri dışındaki proteinlerin index değerleri %40-%60 ve %80-%100 aralıklarında yoğunluk göstermektedir. Major varyantlar ise tüm proteinlerde %50 değerinin altında veri noktalarına sahiptir. Bu durum minor varyantlar incelendiğinde yaklaşık %59 olarak tespit edilmiştir. Özgün varyantlar ve nonatipler için ise sırasıyla yaklaşık olarak %22 ve %32 değerlerinin üstünde veri noktaları görülmemiştir. 
 
 .. figure:: ../figures/freqdistviolin.png
       :alt: hRSV dizi çeşitliliği motiflerinin dağılımını inceleyen violin grafiği 
@@ -119,6 +119,7 @@ hRSV dizi çeşitliliği motiflerinin protein düzeyindeki dinamikleri, proteom 
 Distribution of Conserved and Variable Sequences
 ------------------------------------------------
 
+hRSV proteomunda hemen hemen tüm nonamer dizi pozisyonları karışık değişkenleri içeren ve yüksek derecede korunmuşluğa sahip olarak sınıflandırılmıştır (Şekil 1). Protome düzeyinde inceleme yapıldığında karışık değişkenleri içeren nonamer dizileri yaklaşık %49 (2180 nonamer dizisi), yüksek derecede korunmuşluk içeren nonamer dizileri yaklaşık %47 (2092 nonamer dizisi), tamamen korunmuş nonamer dizileri ise yaklaşık %4 (177 nonamer dizisi) olarak bulunmuştur.
 
 .. figure:: ../figures/rating1.png
       :alt: Protein ve proteome düzeyinde hRSV nonamerlerinin korunmuşluk derecelerini gösteren grafik 
