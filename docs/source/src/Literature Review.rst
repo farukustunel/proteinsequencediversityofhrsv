@@ -43,6 +43,13 @@ Classification Of HRSV
 hRSV Pathogenesis
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. figure:: ../figures/hRSV_pathogenesis.png
+      :alt: hRSV patogenezine dahil olan viral, konak ve çevresel faktörler 
+      
+      hRSV patogenezine dahil olan viral, konak ve çevresel faktörler
+
+
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Mechanism of viral variability
