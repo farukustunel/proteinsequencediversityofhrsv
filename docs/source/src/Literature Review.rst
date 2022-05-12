@@ -27,10 +27,13 @@ RSV ilk olarak 1955 yılında Walter Reed Army Araştırma Enstitüsünde (WRAIR
 Genome architecture and nomenclature
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+İnsan solunum sinsityal virüsü (hRSV), taksanomik sınıflandırmada       Negarnaviricota şubesi, Monjiviricetes sınıfı, Mononegavirales takımı,  Pneumoviridae ailesi, Orthopneumovirus cinsi içerisinde bulunmaktadır [9,10,11]. hRSV, elektron mikroskobun da hem uzun ipliksi yapıda hemde küre şeklindeki parçacıklar halinde görülebilmektedir [12]. hRSV, non-segmented yapıda, tek zincirli ve negatif polariteli, yaklaşık 15.000 nükleotid içeren bir virüstür. Viral genomu toplamda 10 gen içerir ve bu genler 11 protein kodlamaktadırlar. Bu proteinlerin 9 tanesi yapısal, 2 tanesi (NS1-NS2) ise yapısal olmayan proteinlerdir [13]. 3'-5' yönünde RNA zincirine sahip hRSV genleri genom içersinde NS1-NS2-N-P-M-SH-G-F-M2-L şeklinde sıralanmaktadır [Şekil 1].
+
+
 .. figure:: ../figures/HRSV_virion_and_genome_structure.png
-      :alt: hRSV Virion Yapısı ve Genom Kompozisyonu
+      :alt: hRSV Virion Yapısı ve Genom Kompozisyonu. Pablo F. Céspedes, Claudia A. Rivera, Rodrigo A. Díaz, Alexis M. Kalergis (2018) New Insights for the Rational Design Of Human Respiratory Syncytial Virus Vaccines: From Molecular Biology to Clinical Trials, sayfa 3 Şekil 1'den uyarlanmıştır.
       
-      hRSV Virion Yapısı ve Genom Kompozisyonu
+      hRSV Virion Yapısı ve Genom Kompozisyonu. Pablo F. Céspedes, Claudia A. Rivera, Rodrigo A. Díaz, Alexis M. Kalergis (2018) New Insights for the Rational Design Of Human Respiratory Syncytial Virus Vaccines: From Molecular Biology to Clinical Trials, sayfa 3 Şekil 1'den uyarlanmıştır.
 
 
 
